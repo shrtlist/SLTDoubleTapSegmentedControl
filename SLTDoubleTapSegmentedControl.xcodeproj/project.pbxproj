@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5705C4C818C1200D009CC68B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5705C4C718C1200D009CC68B /* Foundation.framework */; };
+		5705C4CC18C1200D009CC68B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5705C4CB18C1200D009CC68B /* UIKit.framework */; };
+		5705C4D218C1200D009CC68B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5705C4D018C1200D009CC68B /* InfoPlist.strings */; };
+		5705C4D418C1200D009CC68B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705C4D318C1200D009CC68B /* main.m */; };
+		5705C4D818C1200D009CC68B /* SLTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705C4D718C1200D009CC68B /* SLTAppDelegate.m */; };
+		5705C4DA18C1200D009CC68B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5705C4D918C1200D009CC68B /* Images.xcassets */; };
+		5705C4E118C1200D009CC68B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5705C4E018C1200D009CC68B /* XCTest.framework */; };
+		5705C4E218C1200D009CC68B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5705C4C718C1200D009CC68B /* Foundation.framework */; };
+		5705C4E318C1200D009CC68B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5705C4CB18C1200D009CC68B /* UIKit.framework */; };
+		5705C4EB18C1200D009CC68B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5705C4E918C1200D009CC68B /* InfoPlist.strings */; };
+		5705C4ED18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705C4EC18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.m */; };
+		5705C4F818C122B8009CC68B /* SLTDoubleTapSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705C4F718C122B8009CC68B /* SLTDoubleTapSegmentedControl.m */; };
+		5705C4FD18C12417009CC68B /* SLTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5705C4FB18C12417009CC68B /* SLTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5705C4E418C1200D009CC68B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5705C4BC18C1200D009CC68B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5705C4C318C1200D009CC68B;
+			remoteInfo = SLTDoubleTapSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5705C4C418C1200D009CC68B /* SLTDoubleTapSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLTDoubleTapSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5705C4C718C1200D009CC68B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5705C4CB18C1200D009CC68B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5705C4CF18C1200D009CC68B /* SLTDoubleTapSegmentedControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLTDoubleTapSegmentedControl-Info.plist"; sourceTree = "<group>"; };
+		5705C4D118C1200D009CC68B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5705C4D318C1200D009CC68B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5705C4D518C1200D009CC68B /* SLTDoubleTapSegmentedControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLTDoubleTapSegmentedControl-Prefix.pch"; sourceTree = "<group>"; };
+		5705C4D618C1200D009CC68B /* SLTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTAppDelegate.h; sourceTree = "<group>"; };
+		5705C4D718C1200D009CC68B /* SLTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTAppDelegate.m; sourceTree = "<group>"; };
+		5705C4D918C1200D009CC68B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5705C4DF18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLTDoubleTapSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5705C4E018C1200D009CC68B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5705C4E818C1200D009CC68B /* SLTDoubleTapSegmentedControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLTDoubleTapSegmentedControlTests-Info.plist"; sourceTree = "<group>"; };
+		5705C4EA18C1200D009CC68B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5705C4EC18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTDoubleTapSegmentedControlTests.m; sourceTree = "<group>"; };
+		5705C4F618C122B8009CC68B /* SLTDoubleTapSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTDoubleTapSegmentedControl.h; sourceTree = "<group>"; };
+		5705C4F718C122B8009CC68B /* SLTDoubleTapSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTDoubleTapSegmentedControl.m; sourceTree = "<group>"; };
+		5705C4FB18C12417009CC68B /* SLTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5705C4C118C1200D009CC68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5705C4CC18C1200D009CC68B /* UIKit.framework in Frameworks */,
+				5705C4C818C1200D009CC68B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5705C4DC18C1200D009CC68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5705C4E118C1200D009CC68B /* XCTest.framework in Frameworks */,
+				5705C4E318C1200D009CC68B /* UIKit.framework in Frameworks */,
+				5705C4E218C1200D009CC68B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5705C4BB18C1200D009CC68B = {
+			isa = PBXGroup;
+			children = (
+				5705C4CD18C1200D009CC68B /* SLTDoubleTapSegmentedControl */,
+				5705C4E618C1200D009CC68B /* SLTDoubleTapSegmentedControlTests */,
+				5705C4C618C1200D009CC68B /* Frameworks */,
+				5705C4C518C1200D009CC68B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5705C4C518C1200D009CC68B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5705C4C418C1200D009CC68B /* SLTDoubleTapSegmentedControl.app */,
+				5705C4DF18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5705C4C618C1200D009CC68B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5705C4C718C1200D009CC68B /* Foundation.framework */,
+				5705C4CB18C1200D009CC68B /* UIKit.framework */,
+				5705C4E018C1200D009CC68B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5705C4CD18C1200D009CC68B /* SLTDoubleTapSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				5705C4D618C1200D009CC68B /* SLTAppDelegate.h */,
+				5705C4D718C1200D009CC68B /* SLTAppDelegate.m */,
+				5705C4F618C122B8009CC68B /* SLTDoubleTapSegmentedControl.h */,
+				5705C4F718C122B8009CC68B /* SLTDoubleTapSegmentedControl.m */,
+				5705C4FB18C12417009CC68B /* SLTViewController.xib */,
+				5705C4D918C1200D009CC68B /* Images.xcassets */,
+				5705C4CE18C1200D009CC68B /* Supporting Files */,
+			);
+			path = SLTDoubleTapSegmentedControl;
+			sourceTree = "<group>";
+		};
+		5705C4CE18C1200D009CC68B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5705C4CF18C1200D009CC68B /* SLTDoubleTapSegmentedControl-Info.plist */,
+				5705C4D018C1200D009CC68B /* InfoPlist.strings */,
+				5705C4D318C1200D009CC68B /* main.m */,
+				5705C4D518C1200D009CC68B /* SLTDoubleTapSegmentedControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5705C4E618C1200D009CC68B /* SLTDoubleTapSegmentedControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				5705C4EC18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.m */,
+				5705C4E718C1200D009CC68B /* Supporting Files */,
+			);
+			path = SLTDoubleTapSegmentedControlTests;
+			sourceTree = "<group>";
+		};
+		5705C4E718C1200D009CC68B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5705C4E818C1200D009CC68B /* SLTDoubleTapSegmentedControlTests-Info.plist */,
+				5705C4E918C1200D009CC68B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5705C4C318C1200D009CC68B /* SLTDoubleTapSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5705C4F018C1200D009CC68B /* Build configuration list for PBXNativeTarget "SLTDoubleTapSegmentedControl" */;
+			buildPhases = (
+				5705C4C018C1200D009CC68B /* Sources */,
+				5705C4C118C1200D009CC68B /* Frameworks */,
+				5705C4C218C1200D009CC68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLTDoubleTapSegmentedControl;
+			productName = SLTDoubleTapSegmentedControl;
+			productReference = 5705C4C418C1200D009CC68B /* SLTDoubleTapSegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5705C4DE18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5705C4F318C1200D009CC68B /* Build configuration list for PBXNativeTarget "SLTDoubleTapSegmentedControlTests" */;
+			buildPhases = (
+				5705C4DB18C1200D009CC68B /* Sources */,
+				5705C4DC18C1200D009CC68B /* Frameworks */,
+				5705C4DD18C1200D009CC68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5705C4E518C1200D009CC68B /* PBXTargetDependency */,
+			);
+			name = SLTDoubleTapSegmentedControlTests;
+			productName = SLTDoubleTapSegmentedControlTests;
+			productReference = 5705C4DF18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5705C4BC18C1200D009CC68B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SLT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shrtlist;
+				TargetAttributes = {
+					5705C4DE18C1200D009CC68B = {
+						TestTargetID = 5705C4C318C1200D009CC68B;
+					};
+				};
+			};
+			buildConfigurationList = 5705C4BF18C1200D009CC68B /* Build configuration list for PBXProject "SLTDoubleTapSegmentedControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5705C4BB18C1200D009CC68B;
+			productRefGroup = 5705C4C518C1200D009CC68B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5705C4C318C1200D009CC68B /* SLTDoubleTapSegmentedControl */,
+				5705C4DE18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5705C4C218C1200D009CC68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5705C4D218C1200D009CC68B /* InfoPlist.strings in Resources */,
+				5705C4FD18C12417009CC68B /* SLTViewController.xib in Resources */,
+				5705C4DA18C1200D009CC68B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5705C4DD18C1200D009CC68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5705C4EB18C1200D009CC68B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5705C4C018C1200D009CC68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5705C4F818C122B8009CC68B /* SLTDoubleTapSegmentedControl.m in Sources */,
+				5705C4D818C1200D009CC68B /* SLTAppDelegate.m in Sources */,
+				5705C4D418C1200D009CC68B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5705C4DB18C1200D009CC68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5705C4ED18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5705C4E518C1200D009CC68B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5705C4C318C1200D009CC68B /* SLTDoubleTapSegmentedControl */;
+			targetProxy = 5705C4E418C1200D009CC68B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5705C4D018C1200D009CC68B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5705C4D118C1200D009CC68B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5705C4E918C1200D009CC68B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5705C4EA18C1200D009CC68B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5705C4EE18C1200D009CC68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5705C4EF18C1200D009CC68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5705C4F118C1200D009CC68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLTDoubleTapSegmentedControl/SLTDoubleTapSegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "SLTDoubleTapSegmentedControl/SLTDoubleTapSegmentedControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5705C4F218C1200D009CC68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLTDoubleTapSegmentedControl/SLTDoubleTapSegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "SLTDoubleTapSegmentedControl/SLTDoubleTapSegmentedControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5705C4F418C1200D009CC68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SLTDoubleTapSegmentedControl.app/SLTDoubleTapSegmentedControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLTDoubleTapSegmentedControl/SLTDoubleTapSegmentedControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SLTDoubleTapSegmentedControlTests/SLTDoubleTapSegmentedControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5705C4F518C1200D009CC68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SLTDoubleTapSegmentedControl.app/SLTDoubleTapSegmentedControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLTDoubleTapSegmentedControl/SLTDoubleTapSegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "SLTDoubleTapSegmentedControlTests/SLTDoubleTapSegmentedControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5705C4BF18C1200D009CC68B /* Build configuration list for PBXProject "SLTDoubleTapSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5705C4EE18C1200D009CC68B /* Debug */,
+				5705C4EF18C1200D009CC68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5705C4F018C1200D009CC68B /* Build configuration list for PBXNativeTarget "SLTDoubleTapSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5705C4F118C1200D009CC68B /* Debug */,
+				5705C4F218C1200D009CC68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5705C4F318C1200D009CC68B /* Build configuration list for PBXNativeTarget "SLTDoubleTapSegmentedControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5705C4F418C1200D009CC68B /* Debug */,
+				5705C4F518C1200D009CC68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5705C4BC18C1200D009CC68B /* Project object */;
+}
