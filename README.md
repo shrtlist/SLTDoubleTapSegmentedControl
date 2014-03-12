@@ -17,4 +17,4 @@ SLTDoubleTapSegmentedControl *doubleTapSegmentedControl = [[SLTDoubleTapSegmente
 
 ## License
 
-SLTDoubleTapSegmentedControl is licensed under the terms of the Apache 2.0 License. Please see the [LICENSE](LICENSE.md) file for full details.
+`SLTDoubleTapSegmentedControl` is licensed under the terms of the Apache 2.0 License. Please see the [LICENSE](LICENSE.md) file for full details.
