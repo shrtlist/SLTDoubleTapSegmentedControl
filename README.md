@@ -13,6 +13,9 @@ A double-tap `UISegmentedControl` subclass. Each segment functions as a discrete
 
 ```  objective-c
 SLTDoubleTapSegmentedControl *doubleTapSegmentedControl = [[SLTDoubleTapSegmentedControl alloc] initWithItems:@[@"home", @"work", @"other"]];
+[doubleTapSegmentedControl setTintColor:[UIColor greenColor] forSegmentAtIndex:0];
+[doubleTapSegmentedControl setTintColor:[UIColor redColor] forSegmentAtIndex:1];
+[doubleTapSegmentedControl setTintColor:[UIColor blueColor] forSegmentAtIndex:2];
 [doubleTapSegmentedControl addTarget:self action:@selector(segmentedControlChangedValue:) forControlEvents:UIControlEventValueChanged];
 [self.view addSubview:doubleTapSegmentedControl];
 ```
