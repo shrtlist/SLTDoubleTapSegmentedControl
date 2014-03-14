@@ -1,5 +1,7 @@
 ## SLTDoubleTapSegmentedControl
 
+![](SLTDoubleTapSegmentedControl.png)
+
 A double-tap `UISegmentedControl` subclass. Each segment functions as a discrete double-tap button. Based on http://stackoverflow.com/questions/17652773/how-to-deselect-a-segment-in-segmented-control-button-permanently-till-its-click?lq=1
 
 ## Installation
