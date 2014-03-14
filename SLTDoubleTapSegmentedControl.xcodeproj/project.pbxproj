@@ -20,6 +20,7 @@
 		5705C4ED18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705C4EC18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.m */; };
 		5705C4F818C122B8009CC68B /* SLTDoubleTapSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705C4F718C122B8009CC68B /* SLTDoubleTapSegmentedControl.m */; };
 		5705C4FD18C12417009CC68B /* SLTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5705C4FB18C12417009CC68B /* SLTViewController.xib */; };
+		5715634718CFF85A003FAD64 /* SLTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5715634618CFF85A003FAD64 /* SLTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5705C4F618C122B8009CC68B /* SLTDoubleTapSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTDoubleTapSegmentedControl.h; sourceTree = "<group>"; };
 		5705C4F718C122B8009CC68B /* SLTDoubleTapSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTDoubleTapSegmentedControl.m; sourceTree = "<group>"; };
 		5705C4FB18C12417009CC68B /* SLTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLTViewController.xib; sourceTree = "<group>"; };
+		5715634518CFF85A003FAD64 /* SLTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTViewController.h; sourceTree = "<group>"; };
+		5715634618CFF85A003FAD64 /* SLTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				5705C4D718C1200D009CC68B /* SLTAppDelegate.m */,
 				5705C4F618C122B8009CC68B /* SLTDoubleTapSegmentedControl.h */,
 				5705C4F718C122B8009CC68B /* SLTDoubleTapSegmentedControl.m */,
+				5715634518CFF85A003FAD64 /* SLTViewController.h */,
+				5715634618CFF85A003FAD64 /* SLTViewController.m */,
 				5705C4FB18C12417009CC68B /* SLTViewController.xib */,
 				5705C4D918C1200D009CC68B /* Images.xcassets */,
 				5705C4CE18C1200D009CC68B /* Supporting Files */,
@@ -245,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5715634718CFF85A003FAD64 /* SLTViewController.m in Sources */,
 				5705C4F818C122B8009CC68B /* SLTDoubleTapSegmentedControl.m in Sources */,
 				5705C4D818C1200D009CC68B /* SLTAppDelegate.m in Sources */,
 				5705C4D418C1200D009CC68B /* main.m in Sources */,

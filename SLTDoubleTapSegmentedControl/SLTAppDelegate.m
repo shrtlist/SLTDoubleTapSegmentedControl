@@ -15,6 +15,7 @@
  */
 
 #import "SLTAppDelegate.h"
+#import "SLTViewController.h"
 
 @implementation SLTAppDelegate
 
@@ -24,7 +25,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    UIViewController *viewController = [[UIViewController alloc] initWithNibName:@"SLTViewController" bundle:nil];
+    SLTViewController *viewController = [[SLTViewController alloc] initWithNibName:@"SLTViewController" bundle:nil];
     
     [self.window setRootViewController:viewController];
     [self.window makeKeyAndVisible];
