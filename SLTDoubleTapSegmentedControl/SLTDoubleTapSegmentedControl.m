@@ -18,6 +18,42 @@
 
 @implementation SLTDoubleTapSegmentedControl
 
+#pragma mark - Public method
+
+- (void)setTintColor:(UIColor *)tintColor forSegmentAtIndex:(NSUInteger)segment
+{
+    NSString *title = [self titleForSegmentAtIndex:segment];
+    
+    if (title)
+    {
+        UIFont *font = [UIFont systemFontOfSize:12.0f];
+        NSDictionary *attributes = @{NSFontAttributeName:font,
+                                     NSForegroundColorAttributeName:tintColor};
+        
+        NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:title attributes:attributes];
+        
+        UIImage *image = [self imageFromAttributedString:attributedString];
+        
+        [self setImage:image forSegmentAtIndex:segment];
+    }
+}
+
+#pragma mark - Private methods
+
+- (UIImage *)imageFromAttributedString:(NSAttributedString *)text
+{
+    UIGraphicsBeginImageContextWithOptions(text.size, NO, 0.0);
+    
+    // draw in context
+    [text drawAtPoint:CGPointMake(0.0, 0.0)];
+    
+    // transfer image
+    UIImage *image = [UIGraphicsGetImageFromCurrentImageContext() imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
+
 + (BOOL)isIOS7
 {
     static BOOL isIOS7 = NO;

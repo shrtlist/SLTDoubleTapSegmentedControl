@@ -19,4 +19,6 @@
 
 @interface SLTDoubleTapSegmentedControl : UISegmentedControl
 
+- (void)setTintColor:(UIColor *)tintColor forSegmentAtIndex:(NSUInteger)segment;
+
 @end
