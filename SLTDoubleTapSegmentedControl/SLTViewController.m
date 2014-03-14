@@ -22,7 +22,6 @@
 
     [self.doubleTapSegmentedControl setTintColor:[UIColor greenColor] forSegmentAtIndex:0];
     [self.doubleTapSegmentedControl setTintColor:[UIColor redColor] forSegmentAtIndex:1];
-    [self.doubleTapSegmentedControl setTintColor:[UIColor blueColor] forSegmentAtIndex:2];
 }
 
 #pragma mark - Private methods
