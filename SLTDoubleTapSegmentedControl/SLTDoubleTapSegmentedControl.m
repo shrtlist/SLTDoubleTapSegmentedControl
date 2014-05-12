@@ -30,7 +30,7 @@
         NSDictionary *attributes = @{NSFontAttributeName:font,
                                      NSForegroundColorAttributeName:tintColor};
         
-        NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:title attributes:attributes];
+        NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:title attributes:attributes];
         
         UIImage *image = [self imageFromAttributedString:attributedString];
         
