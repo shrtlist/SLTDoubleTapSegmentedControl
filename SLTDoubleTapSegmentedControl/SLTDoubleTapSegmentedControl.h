@@ -17,6 +17,8 @@
 // Double-tap segmented control. Each segment functions as a discrete double-tap button.
 // Credit: http://stackoverflow.com/questions/17652773/how-to-deselect-a-segment-in-segmented-control-button-permanently-till-its-click?lq=1
 
+@import UIKit;
+
 @interface SLTDoubleTapSegmentedControl : UISegmentedControl
 
 - (void)setTintColor:(UIColor *)tintColor forSegmentAtIndex:(NSUInteger)segment;
