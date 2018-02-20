@@ -19,11 +19,11 @@
 
 import UIKit
 
-class SLTDoubleTapSegmentedControl: UISegmentedControl {
+public class SLTDoubleTapSegmentedControl: UISegmentedControl {
 
     // MARK: Public method
 
-    func setTintColor(tintColor: UIColor, forSegmentAtIndex index: Int) {
+    public func setTintColor(tintColor: UIColor, forSegmentAtIndex index: Int) {
         guard let title = titleForSegment(at: index) else { return }
 
         let font = UIFont.systemFont(ofSize: 12)
@@ -58,7 +58,7 @@ class SLTDoubleTapSegmentedControl: UISegmentedControl {
 
     // MARK: Custom touch handling
 
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         let previousSelectedSegmentIndex = selectedSegmentIndex
 
         super.touchesEnded(touches, with: event)
