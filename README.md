@@ -6,19 +6,11 @@ A double-tap `UISegmentedControl` subclass. Each segment functions as a discrete
 
 ## Installation
 
-- Add `SLTDoubleTapSegmentedControl.h` and `SLTDoubleTapSegmentedControl.m` to your project.
-- `#import "SLTDoubleTapSegmentedControl.h"` where you want to add the control.
+### CocoaPods
 
-## Usage
-
-```  objective-c
-SLTDoubleTapSegmentedControl *doubleTapSegmentedControl = [[SLTDoubleTapSegmentedControl alloc] initWithItems:@[@"home", @"work", @"other"]];
-// Set tintColors for first 2 segments
-[doubleTapSegmentedControl setTintColor:[UIColor greenColor] forSegmentAtIndex:0];
-[doubleTapSegmentedControl setTintColor:[UIColor redColor] forSegmentAtIndex:1];
-// Add target-action method
-[doubleTapSegmentedControl addTarget:self action:@selector(segmentedControlChangedValue:) forControlEvents:UIControlEventValueChanged];
-[self.view addSubview:doubleTapSegmentedControl];
+Add this to your Podfile.
+```ogdl
+pod 'SLTDoubleTapSegmentedControl'
 ```
 
 ## License
