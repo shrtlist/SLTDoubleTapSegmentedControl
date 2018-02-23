@@ -59,9 +59,25 @@ public class SLTDoubleTapSegmentedControl: UISegmentedControl {
     // MARK: Custom touch handling
 
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    let previousSelectedSegmentIndex = selectedSegmentIndex
+        let previousSelectedSegmentIndex = selectedSegmentIndex
 
         super.touchesBegan(touches, with: event)
+
+        if previousSelectedSegmentIndex == selectedSegmentIndex {
+            // Clear the segmented control
+            selectedSegmentIndex = UISegmentedControlNoSegment
+
+            // if the selectedSegmentIndex before the selection process is equal to the selectedSegmentIndex
+            // after the selection process the superclass won't send a UIControlEventValueChanged event.
+            // So we have to do this ourselves.
+            sendActions(for: .valueChanged)
+        }
+    }
+
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let previousSelectedSegmentIndex = selectedSegmentIndex
+
+        super.touchesEnded(touches, with: event)
 
         if previousSelectedSegmentIndex == selectedSegmentIndex {
             // Clear the segmented control
