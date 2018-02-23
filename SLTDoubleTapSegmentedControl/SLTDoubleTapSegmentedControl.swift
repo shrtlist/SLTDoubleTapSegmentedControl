@@ -58,10 +58,10 @@ public class SLTDoubleTapSegmentedControl: UISegmentedControl {
 
     // MARK: Custom touch handling
 
-    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let previousSelectedSegmentIndex = selectedSegmentIndex
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    let previousSelectedSegmentIndex = selectedSegmentIndex
 
-        super.touchesEnded(touches, with: event)
+        super.touchesBegan(touches, with: event)
 
         if previousSelectedSegmentIndex == selectedSegmentIndex {
             // Clear the segmented control
