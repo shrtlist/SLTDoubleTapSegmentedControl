@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 shrtlist
+ * Copyright 2019 shrtlist
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,12 +16,36 @@
 
 #import "SLTDoubleTapSegmentedControl.h"
 
-@interface SLTDoubleTapSegmentedControl ()
+@implementation SLTDoubleTapSegmentedControl
 
-@end
+#pragma mark - Designated initializers
 
-@implementation SLTDoubleTapSegmentedControl {
-    UIFont *_font;
+- (instancetype)initWithItems:(NSArray *)items {
+    if ((self = [super initWithItems:items])) {
+        [self commonInit];
+    }
+    return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    if ((self = [super initWithCoder:aDecoder]))
+    {
+        [self commonInit];
+    }
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame {
+    if ((self = [super initWithFrame:frame]))
+    {
+        [self commonInit];
+    }
+    return self;
+}
+
+- (void)commonInit
+{
+    _font = [UIFont systemFontOfSize:18.0f];
 }
 
 #pragma mark - Public method
