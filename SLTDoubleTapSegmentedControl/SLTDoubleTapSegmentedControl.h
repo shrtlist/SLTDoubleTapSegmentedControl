@@ -23,4 +23,6 @@
 
 - (void)setTintColor:(UIColor *)tintColor forSegmentAtIndex:(NSUInteger)segment;
 
+@property (nonatomic, retain) UIFont* font;
+
 @end
