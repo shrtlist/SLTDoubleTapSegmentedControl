@@ -16,7 +16,13 @@
 
 #import "SLTDoubleTapSegmentedControl.h"
 
-@implementation SLTDoubleTapSegmentedControl
+@interface SLTDoubleTapSegmentedControl ()
+
+@end
+
+@implementation SLTDoubleTapSegmentedControl {
+    UIFont *_font;
+}
 
 #pragma mark - Public method
 
@@ -26,8 +32,7 @@
     
     if (title)
     {
-        UIFont *font = [UIFont systemFontOfSize:12.0f];
-        NSDictionary *attributes = @{NSFontAttributeName:font,
+        NSDictionary *attributes = @{NSFontAttributeName:self.font,
                                      NSForegroundColorAttributeName:tintColor};
         
         NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:title attributes:attributes];
