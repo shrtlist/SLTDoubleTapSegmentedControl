@@ -1,5 +1,6 @@
 /*
- * Copyright 2014 shrtlist
+ * Copyright 2019
+ shrtlist
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,7 +23,6 @@
 @interface SLTDoubleTapSegmentedControl : UISegmentedControl
 
 - (void)setTintColor:(UIColor *)tintColor forSegmentAtIndex:(NSUInteger)segment;
-
-@property (nonatomic, retain) UIFont* font;
+@property (nonatomic, strong) UIFont *font;
 
 @end
