@@ -62,6 +62,7 @@
         NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:title attributes:attributes];
         
         UIImage *image = [self imageFromAttributedString:attributedString];
+        [image setAccessibilityLabel:title];
         
         [self setImage:image forSegmentAtIndex:segment];
     }
