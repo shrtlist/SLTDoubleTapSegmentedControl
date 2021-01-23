@@ -12,7 +12,6 @@
 		5705C4D218C1200D009CC68B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5705C4D018C1200D009CC68B /* InfoPlist.strings */; };
 		5705C4D418C1200D009CC68B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705C4D318C1200D009CC68B /* main.m */; };
 		5705C4D818C1200D009CC68B /* SLTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705C4D718C1200D009CC68B /* SLTAppDelegate.m */; };
-		5705C4DA18C1200D009CC68B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5705C4D918C1200D009CC68B /* Images.xcassets */; };
 		5705C4E118C1200D009CC68B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5705C4E018C1200D009CC68B /* XCTest.framework */; };
 		5705C4E218C1200D009CC68B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5705C4C718C1200D009CC68B /* Foundation.framework */; };
 		5705C4E318C1200D009CC68B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5705C4CB18C1200D009CC68B /* UIKit.framework */; };
@@ -43,7 +42,6 @@
 		5705C4D518C1200D009CC68B /* SLTDoubleTapSegmentedControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLTDoubleTapSegmentedControl-Prefix.pch"; sourceTree = "<group>"; };
 		5705C4D618C1200D009CC68B /* SLTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTAppDelegate.h; sourceTree = "<group>"; };
 		5705C4D718C1200D009CC68B /* SLTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTAppDelegate.m; sourceTree = "<group>"; };
-		5705C4D918C1200D009CC68B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5705C4DF18C1200D009CC68B /* SLTDoubleTapSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLTDoubleTapSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5705C4E018C1200D009CC68B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5705C4E818C1200D009CC68B /* SLTDoubleTapSegmentedControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLTDoubleTapSegmentedControlTests-Info.plist"; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 				5715634518CFF85A003FAD64 /* SLTViewController.h */,
 				5715634618CFF85A003FAD64 /* SLTViewController.m */,
 				5705C4FB18C12417009CC68B /* SLTViewController.xib */,
-				5705C4D918C1200D009CC68B /* Images.xcassets */,
 				5705C4CE18C1200D009CC68B /* Supporting Files */,
 			);
 			path = SLTDoubleTapSegmentedControl;
@@ -232,7 +229,6 @@
 			files = (
 				5705C4D218C1200D009CC68B /* InfoPlist.strings in Resources */,
 				5705C4FD18C12417009CC68B /* SLTViewController.xib in Resources */,
-				5705C4DA18C1200D009CC68B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,11 +398,11 @@
 		5705C4F118C1200D009CC68B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SLTDoubleTapSegmentedControl/SLTDoubleTapSegmentedControl-Prefix.pch";
 				INFOPLIST_FILE = "SLTDoubleTapSegmentedControl/SLTDoubleTapSegmentedControl-Info.plist";
+				MARKETING_VERSION = 1.0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shrtlist.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -416,11 +412,11 @@
 		5705C4F218C1200D009CC68B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SLTDoubleTapSegmentedControl/SLTDoubleTapSegmentedControl-Prefix.pch";
 				INFOPLIST_FILE = "SLTDoubleTapSegmentedControl/SLTDoubleTapSegmentedControl-Info.plist";
+				MARKETING_VERSION = 1.0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shrtlist.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
